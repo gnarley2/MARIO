@@ -5,10 +5,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-   // private float Horizontal;
-    //private float speed = 8f;
-    //private float jumpingPower = 16f;
-    //private bool isFacingRight = true;
 
     [SerializeField] private Rigidbody2D rb;
     //[SerializeField] private Transform groundCheck;
@@ -23,9 +19,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //  Horizontal = Input.GetAxisRaw("Horizontal");
+        float xAxis = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(xAxis * 5f, rb.velocity.y);
+
+
 
         if (Input.GetButtonDown("Jump"))
-                rb.velocity = new Vector3(0, 5f, 0);
+                rb.velocity = new Vector2(rb.velocity.x, 9f);
     }
 }
