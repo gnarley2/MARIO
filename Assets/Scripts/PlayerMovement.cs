@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -19,8 +16,6 @@ public class PlayerMovement : MonoBehaviour
     {
         float xAxis = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(xAxis * 5f, rb.velocity.y);
-
-
 
         if (Input.GetButtonDown("Jump"))
                 rb.velocity = new Vector2(rb.velocity.x, 9f);
