@@ -13,6 +13,6 @@ public class SideScrolling : MonoBehaviour
     {
         Vector3 cameraPos = transform.position;
         cameraPos.x = Mathf.Max(cameraPos.x, player.position.x);
-        transform.position = cameraPos;
+        transform.position = cameraPos; 
     }
 }
