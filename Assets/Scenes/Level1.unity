@@ -2667,7 +2667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &570663447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2929,7 +2929,7 @@ Transform:
   m_GameObject: {fileID: 628805578}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.44, y: 5.51, z: 0}
+  m_LocalPosition: {x: -80.5, y: 5.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3456,7 +3456,157 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 685863872}
+    m_ColliderPaths:
+    - - X: 1060000000
+        Y: 20000000
+      - X: 940000000
+        Y: 20000000
+      - X: 940000000
+        Y: 30000000
+      - X: 930000000
+        Y: 30000000
+      - X: 930000000
+        Y: 20000000
+      - X: 850000000
+        Y: 20000000
+      - X: 850000000
+        Y: 100000000
+      - X: 830000000
+        Y: 100000000
+      - X: 830000000
+        Y: 90000000
+      - X: 820000000
+        Y: 90000000
+      - X: 820000000
+        Y: 80000000
+      - X: 810000000
+        Y: 80000000
+      - X: 810000000
+        Y: 70000000
+      - X: 800000000
+        Y: 70000000
+      - X: 800000000
+        Y: 60000000
+      - X: 790000000
+        Y: 60000000
+      - X: 790000000
+        Y: 50000000
+      - X: 780000000
+        Y: 50000000
+      - X: 780000000
+        Y: 40000000
+      - X: 770000000
+        Y: 40000000
+      - X: 770000000
+        Y: 30000000
+      - X: 760000000
+        Y: 30000000
+      - X: 760000000
+        Y: 20000000
+      - X: 540000000
+        Y: 20000000
+      - X: 540000000
+        Y: 30000000
+      - X: 530000000
+        Y: 30000000
+      - X: 530000000
+        Y: 40000000
+      - X: 520000000
+        Y: 40000000
+      - X: 520000000
+        Y: 50000000
+      - X: 510000000
+        Y: 50000000
+      - X: 510000000
+        Y: 60000000
+      - X: 500000000
+        Y: 60000000
+      - X: 500000000
+        Y: 0
+      - X: 1060000000
+        Y: 0
+    - - X: 480000000
+        Y: 60000000
+      - X: 460000000
+        Y: 60000000
+      - X: 460000000
+        Y: 50000000
+      - X: 450000000
+        Y: 50000000
+      - X: 450000000
+        Y: 40000000
+      - X: 440000000
+        Y: 40000000
+      - X: 440000000
+        Y: 30000000
+      - X: 430000000
+        Y: 30000000
+      - X: 430000000
+        Y: 20000000
+      - X: 390000000
+        Y: 20000000
+      - X: 390000000
+        Y: 30000000
+      - X: 380000000
+        Y: 30000000
+      - X: 380000000
+        Y: 40000000
+      - X: 370000000
+        Y: 40000000
+      - X: 370000000
+        Y: 50000000
+      - X: 360000000
+        Y: 50000000
+      - X: 360000000
+        Y: 60000000
+      - X: 350000000
+        Y: 60000000
+      - X: 350000000
+        Y: 20000000
+      - X: 330000000
+        Y: 20000000
+      - X: 330000000
+        Y: 60000000
+      - X: 320000000
+        Y: 60000000
+      - X: 320000000
+        Y: 50000000
+      - X: 310000000
+        Y: 50000000
+      - X: 310000000
+        Y: 40000000
+      - X: 300000000
+        Y: 40000000
+      - X: 300000000
+        Y: 30000000
+      - X: 290000000
+        Y: 30000000
+      - X: 290000000
+        Y: 20000000
+      - X: -160000000
+        Y: 20000000
+      - X: -160000000
+        Y: 0
+      - X: 480000000
+        Y: 0
+    - - X: -360000000
+        Y: 20000000
+      - X: -1050000000
+        Y: 20000000
+      - X: -1050000000
+        Y: 0
+      - X: -360000000
+        Y: 0
+    - - X: -190000000
+        Y: 20000000
+      - X: -340000000
+        Y: 20000000
+      - X: -340000000
+        Y: 0
+      - X: -190000000
+        Y: 0
   m_CompositePaths:
     m_Paths:
     - - {x: 105.99997, y: 0}
@@ -9031,6 +9181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 870707442}
   - component: {fileID: 870707443}
+  - component: {fileID: 870707444}
   m_Layer: 0
   m_Name: QuestionGround
   m_TagString: Untagged
@@ -9105,6 +9256,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &870707444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870707441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36073691f7f7c0d4a8bcb0e0d55e7b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 2
+  numBreak: 1
+  isQuestionBlock: 0
+  coin: {fileID: 4953671190366963256, guid: 77538b8da62f86247af22ac4de784792, type: 3}
+  mushroom: {fileID: 811931507577066008, guid: 13ebd368650cb544a97ec81fc27d6c10, type: 3}
 --- !u!1 &886751237
 GameObject:
   m_ObjectHideFlags: 0
@@ -10813,7 +10981,7 @@ Transform:
   m_GameObject: {fileID: 1259067204}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -82.46, y: 5.51, z: 0}
+  m_LocalPosition: {x: -82.5, y: 5.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13590,7 +13758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1622644329
 Transform:
   m_ObjectHideFlags: 0
