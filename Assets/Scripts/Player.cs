@@ -4,6 +4,7 @@ public class Player : MonoBehaviour
 {
     public PlayerSpriteRenderer smallRenderer;
     public PlayerSpriteRenderer bigRenderer;
+    public PlayerSpriteRenderer activeRenderer;
 
     public bool big => bigRenderer.enabled;
     public bool small => smallRenderer.enabled;
@@ -17,5 +18,8 @@ public class Player : MonoBehaviour
     {
         smallRenderer.enabled = false;
         bigRenderer.enabled = true;
+        activeRenderer = bigRenderer;
+
+        
     }
 }
