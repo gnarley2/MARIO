@@ -29,7 +29,14 @@ public class Player : MonoBehaviour
 
     private void Shrink()
     {
-        // TODO
+        smallRenderer.enabled = true;
+        bigRenderer.enabled = false;
+        activeRenderer = smallRenderer;
+
+        // Downsize and center big mario's capsule collider to fit
+        // small mario
+        capsuleCollider2D.size = Vector2.one;
+        capsuleCollider2D.offset = Vector2.zero;
     }
 
     public void Grow()
@@ -38,7 +45,10 @@ public class Player : MonoBehaviour
         bigRenderer.enabled = true;
         activeRenderer = bigRenderer;
 
+        // Enlarge and offset small mario's capsule collider to fit
+        // big mario
         capsuleCollider2D.size = new Vector2(1f, 2f);
+        capsuleCollider2D.offset = new Vector2(0, 0.5f);
     }
 
     private void Death()
