@@ -24,7 +24,7 @@ public class EnemyMovement : MonoBehaviour
         //  velocity.x = direction.x * EnemySpeed;
         //  velocity.y = Physics2D.gravity.y;
         //// rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
-        rb.velocity = transform.right * EnemySpeed;
+        rb.velocity = -transform.right * EnemySpeed;
 
     }
 
