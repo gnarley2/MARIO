@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 254746905429714014}
   - component: {fileID: 254746905429714017}
   - component: {fileID: 254746905429714016}
+  - component: {fileID: 7463751908451400597}
   - component: {fileID: 254746905429714019}
   m_Layer: 3
   m_Name: Mario
@@ -34,7 +35,7 @@ Transform:
   - {fileID: 5541328230670951767}
   - {fileID: 3667322142233780208}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &254746905429714017
 Rigidbody2D:
@@ -98,6 +99,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &7463751908451400597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254746905429714012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61d334ab048a4f48ac47fb57d7f7aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smallRenderer: {fileID: 3785274450716335339}
+  bigRenderer: {fileID: 7640910294170099636}
+  activeRenderer: {fileID: 0}
 --- !u!114 &254746905429714019
 MonoBehaviour:
   m_ObjectHideFlags: 0
