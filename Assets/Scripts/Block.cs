@@ -16,6 +16,7 @@ public class Block : MonoBehaviour
     [SerializeField] private BlockType blockType;
     [SerializeField] private int numBreak;
     [SerializeField] private bool isQuestionBlock;
+    [SerializeField] private Sprite questionBlockToNormal;
 
     [Header("Coin")] 
     [SerializeField] private CoinAnim coin;
@@ -23,13 +24,20 @@ public class Block : MonoBehaviour
     [Header("Mushroom")]
     [SerializeField] private Mushroom mushroom;
 
+    private SpriteRenderer sprite;
+
+    private void Awake()
+    {
+        sprite = GetComponent<SpriteRenderer>();
+    }
+
     private void Update()
     {
-        if (isQuestionBlock)
-        {
-            isQuestionBlock = false;
-            Break();
-        }
+        // if (isQuestionBlock)
+        // {
+        //     isQuestionBlock = false;
+        //     Break();
+        // }
     }
 
     public void Break()
@@ -51,6 +59,10 @@ public class Block : MonoBehaviour
         if (numBreak <= 0)
         {
             if (!isQuestionBlock) Destroy(gameObject);
+            else
+            {
+                sprite.sprite = questionBlockToNormal;
+            }
         }
     }
 
