@@ -25,11 +25,11 @@ public class Block : MonoBehaviour
 
     private void Update()
     {
-        if (isQuestionBlock)
-        {
-            isQuestionBlock = false;
-            Break();
-        }
+        // if (isQuestionBlock)
+        // {
+        //     isQuestionBlock = false;
+        //     Break();
+        // }
     }
 
     public void Break()
