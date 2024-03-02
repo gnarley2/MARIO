@@ -15,4 +15,10 @@ public static class Extensions
         RaycastHit2D hit = Physics2D.CircleCast(rigidbody.position, radius, direction, distance, layerMask);
         return hit.collider != null && hit.rigidbody != rigidbody;
     }
+
+    public static bool DotProduct(this Transform transform, Transform other, Vector2 direction)
+    {
+        Vector2 dir = other.position - transform.position;
+        return Vector2.Dot(direction.normalized, direction) > 0.25f;
+    }
 }
