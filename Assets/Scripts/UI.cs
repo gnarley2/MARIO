@@ -10,6 +10,7 @@ public class UI : MonoBehaviour
     [SerializeField] Text TimeText;
     [SerializeField] Text CoinText;
     [SerializeField] Text ScoreText;
+    [SerializeField] GameObject GameOverText;
 
     float time = 400;
 
@@ -21,6 +22,7 @@ public class UI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -34,8 +36,32 @@ public class UI : MonoBehaviour
                 Pause();
         }
 
-        time -= Time.deltaTime;
-        TimeText.text = time.ToString();
+        
+
+        if (time > 0)
+        {
+            time -= Time.deltaTime;
+            TimeText.text = time.ToString();
+        }
+        else
+        {
+            TimeText.text = "0";
+            if (!GameIsPaused)
+            {
+                StartCoroutine(EndGame());
+            }
+        }
+    }
+
+    IEnumerator EndGame()
+    {
+        Time.timeScale = 0;
+        GameIsPaused = true;
+        GameOverText.gameObject.SetActive(true);
+        yield return new WaitForSecondsRealtime(3);
+        Time.timeScale = 1;
+        GameIsPaused = false;
+        SceneManager.LoadScene(1);
     }
 
     public void Resume()
