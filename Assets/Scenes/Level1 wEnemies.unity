@@ -5285,8 +5285,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539109559}
-  - component: {fileID: 539109561}
   - component: {fileID: 539109560}
+  - component: {fileID: 539109561}
   m_Layer: 0
   m_Name: EnemyRotator (21)
   m_TagString: Untagged
@@ -5302,7 +5302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539109558}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.060971797, z: 0}
+  m_LocalPosition: {x: -0.007, y: -0.060971797, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5353,7 +5353,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 539109558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896453db019836f4f972b125e303492d, type: 3}
+  m_Script: {fileID: 11500000, guid: c5ecf1a3172cb514d9a829e990191aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &544765471
@@ -22690,9 +22690,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.06983364}
+  m_Offset: {x: 0, y: 0.14100409}
   serializedVersion: 2
-  m_Radius: 0.19738758
+  m_Radius: 0.26855803
 --- !u!114 &1740274555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25304,7 +25304,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2046800278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896453db019836f4f972b125e303492d, type: 3}
+  m_Script: {fileID: 11500000, guid: c5ecf1a3172cb514d9a829e990191aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2046978059
