@@ -61,7 +61,7 @@ public class UI : MonoBehaviour
         yield return new WaitForSecondsRealtime(3);
         Time.timeScale = 1;
         GameIsPaused = false;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void Resume()
