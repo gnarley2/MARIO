@@ -939,6 +939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3420,6 +3424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5660,6 +5668,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12741,6 +12753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13094,6 +13110,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13966,6 +13986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14055,28 +14079,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1242817147 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+--- !u!114 &1242817153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
   m_PrefabInstance: {fileID: 2068741708}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1242817153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242817147}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b91d6c264570814898b8a129d5c7b0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeText: {fileID: 1460850730}
-  CoinText: {fileID: 271616558}
-  ScoreText: {fileID: 1744857634}
-  GameOverText: {fileID: 187943471}
-  pauseMenuUI: {fileID: 639146130}
 --- !u!1 &1258075653
 GameObject:
   m_ObjectHideFlags: 0
@@ -15530,6 +15543,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19058,6 +19075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19118,6 +19139,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19190,6 +19215,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19848,6 +19877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20170,6 +20203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20230,6 +20267,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20735,6 +20776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21219,6 +21264,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: CoinText
+      value: 
+      objectReference: {fileID: 271616558}
+    - target: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: TimeText
+      value: 
+      objectReference: {fileID: 1460850730}
+    - target: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 1744857634}
+    - target: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 639146130}
+    - target: {fileID: 1242817153, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: GameOverText
+      value: 
+      objectReference: {fileID: 187943471}
     - target: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
       propertyPath: m_Name
       value: Mario
@@ -21270,10 +21335,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1242817153}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
 --- !u!1 &2120211063
 GameObject:

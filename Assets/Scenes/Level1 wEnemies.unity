@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 65096890}
   - component: {fileID: 65096889}
   - component: {fileID: 65096893}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2405,7 +2405,7 @@ GameObject:
   - component: {fileID: 300578471}
   - component: {fileID: 300578470}
   - component: {fileID: 300578474}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2662,7 +2662,7 @@ GameObject:
   - component: {fileID: 310985085}
   - component: {fileID: 310985084}
   - component: {fileID: 310985088}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (10)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3685,7 +3685,7 @@ GameObject:
   - component: {fileID: 373163529}
   - component: {fileID: 373163528}
   - component: {fileID: 373163532}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4579,7 +4579,7 @@ GameObject:
   - component: {fileID: 483917181}
   - component: {fileID: 483917180}
   - component: {fileID: 483917184}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -13722,7 +13722,7 @@ GameObject:
   - component: {fileID: 865610562}
   - component: {fileID: 865610561}
   - component: {fileID: 865610559}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (17)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -14059,6 +14059,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &877460183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1646562221, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+  m_PrefabInstance: {fileID: 2068741708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &877460186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877460183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d09674ce78678a47ac8d956f0ff755e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &883055814 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 358908806842898103, guid: 7541b5a72b6327445a72f1a9adc23be4, type: 3}
@@ -15998,7 +16015,7 @@ GameObject:
   - component: {fileID: 1107051836}
   - component: {fileID: 1107051835}
   - component: {fileID: 1107051839}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -16171,7 +16188,7 @@ GameObject:
   - component: {fileID: 1109973987}
   - component: {fileID: 1109973986}
   - component: {fileID: 1109973990}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (15)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -17014,7 +17031,7 @@ GameObject:
   - component: {fileID: 1211225472}
   - component: {fileID: 1211225471}
   - component: {fileID: 1211225475}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (13)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -17187,7 +17204,7 @@ GameObject:
   - component: {fileID: 1236302972}
   - component: {fileID: 1236302971}
   - component: {fileID: 1236302975}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -19392,7 +19409,7 @@ GameObject:
   - component: {fileID: 1423307886}
   - component: {fileID: 1423307885}
   - component: {fileID: 1423307889}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (9)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22920,7 +22937,7 @@ GameObject:
   - component: {fileID: 1735618094}
   - component: {fileID: 1735618093}
   - component: {fileID: 1735618097}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (14)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -23328,7 +23345,7 @@ GameObject:
   - component: {fileID: 1787058629}
   - component: {fileID: 1787058628}
   - component: {fileID: 1787058632}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (12)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -24431,7 +24448,7 @@ GameObject:
   - component: {fileID: 1853323436}
   - component: {fileID: 1853323435}
   - component: {fileID: 1853323439}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (11)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -25717,7 +25734,7 @@ GameObject:
   - component: {fileID: 2025049804}
   - component: {fileID: 2025049803}
   - component: {fileID: 2025049801}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Goomba (16)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -26187,6 +26204,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: CoinText
+      value: 
+      objectReference: {fileID: 1866920808}
+    - target: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: TimeText
+      value: 
+      objectReference: {fileID: 883055814}
+    - target: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 408902857}
+    - target: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 842756605}
+    - target: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: GameOverText
+      value: 
+      objectReference: {fileID: 1836722257}
     - target: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
       propertyPath: m_Name
       value: Mario
@@ -26235,48 +26272,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714016, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 7428c285de9808f4e9f54144cbee522a, type: 2}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 7428c285de9808f4e9f54144cbee522a, type: 2}
-    - target: {fileID: 4479160143011951463, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1646562221, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2068741711}
+      addedObject: {fileID: 877460186}
   m_SourcePrefab: {fileID: 100100000, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
---- !u!1 &2068741709 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+--- !u!114 &2068741711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2068741711, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
   m_PrefabInstance: {fileID: 2068741708}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2068741711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068741709}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b91d6c264570814898b8a129d5c7b0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeText: {fileID: 883055814}
-  CoinText: {fileID: 1866920808}
-  ScoreText: {fileID: 408902857}
-  GameOverText: {fileID: 1836722257}
-  pauseMenuUI: {fileID: 842756605}
 --- !u!1 &2078730344
 GameObject:
   m_ObjectHideFlags: 0
@@ -26834,6 +26848,10 @@ PrefabInstance:
     - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
       propertyPath: m_Name
       value: Goomba
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695101194662589183, guid: 954687f3286a965428756d44e1bab188, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

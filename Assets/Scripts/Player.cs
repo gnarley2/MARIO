@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -8,14 +9,17 @@ public class Player : MonoBehaviour
     private PlayerSpriteRenderer activeRenderer;
 
     public CapsuleCollider2D capsuleCollider2D { get; private set; }
+    public Rigidbody2D rb { get; private set; }
+
+    public bool isDied;
 
     public bool big => bigRenderer.enabled;
     // public bool small => smallRenderer.enabled;
 
     private void Awake()
     {
-        // TODO
         capsuleCollider2D = GetComponent<CapsuleCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
         activeRenderer = smallRenderer;
     }
 
@@ -85,6 +89,17 @@ public class Player : MonoBehaviour
 
     private void Death()
     {
-        // TODO
+        isDied = true;
+        StartCoroutine(DeathCoroutine());
+    }
+
+    IEnumerator DeathCoroutine()
+    {
+        capsuleCollider2D.enabled = false;
+        rb.gravityScale = 10f;
+        
+        yield return new WaitForSeconds(3f);
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
