@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     {
         // TODO
         capsuleCollider2D = GetComponent<CapsuleCollider2D>();
+        activeRenderer = smallRenderer;
     }
 
     public void Hit()
@@ -22,7 +24,9 @@ public class Player : MonoBehaviour
         if (big)
         {
             Shrink();
-        }else{
+        }
+        else
+        {
             Death();
         }
     }
@@ -37,6 +41,8 @@ public class Player : MonoBehaviour
         // small mario
         capsuleCollider2D.size = Vector2.one;
         capsuleCollider2D.offset = Vector2.zero;
+
+        StartCoroutine(ScaleAnimation());
     }
 
     public void Grow()
@@ -49,6 +55,31 @@ public class Player : MonoBehaviour
         // big mario
         capsuleCollider2D.size = new Vector2(1f, 2f);
         capsuleCollider2D.offset = new Vector2(0, 0.5f);
+
+        StartCoroutine(ScaleAnimation());
+    }
+
+    private IEnumerator ScaleAnimation()
+    {
+        float elapsed = 0f;
+        float duration = 0.5f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+
+            if (Time.frameCount % 4 == 0)
+            {
+                smallRenderer.enabled = !smallRenderer.enabled;
+                bigRenderer.enabled = !smallRenderer.enabled;
+            }
+
+            yield return null;
+        }
+
+        smallRenderer.enabled = false;
+        bigRenderer.enabled = false;
+        activeRenderer.enabled = true;
     }
 
     private void Death()
