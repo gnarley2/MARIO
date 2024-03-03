@@ -19221,26 +19221,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1597201825 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-  m_PrefabInstance: {fileID: 2068741708}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1597201832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597201825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 470fb3cee3928764c8e4b414223759f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 8
-  jumpHeight: 5
-  jumpTime: 1
 --- !u!1 &1609339570
 GameObject:
   m_ObjectHideFlags: 0
@@ -22912,38 +22892,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_LinearDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_Interpolate
+    - target: {fileID: 4479160143011951463, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 254746905429714017, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 254746905429714019, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 254746905429714012, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1597201832}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0aabd1be54ccb664985682dd22831340, type: 3}
 --- !u!1 &2120211063
 GameObject:

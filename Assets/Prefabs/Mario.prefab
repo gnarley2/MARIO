@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 254746905429714015}
   - component: {fileID: 254746905429714017}
   - component: {fileID: 254746905429714016}
-  - component: {fileID: 254746905429714019}
+  - component: {fileID: 1597201832}
   m_Layer: 3
   m_Name: Mario
   m_TagString: Player
@@ -34,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 1330134899156528176}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &254746905429714015
 SpriteRenderer:
@@ -111,9 +111,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &254746905429714016
 CapsuleCollider2D:
@@ -150,7 +150,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
---- !u!114 &254746905429714019
+--- !u!114 &1597201832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,6 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330134899156528176}
   - component: {fileID: 4479160143011951463}
+  - component: {fileID: 489213238}
   m_Layer: 3
   m_Name: BlockCollision
   m_TagString: Untagged
@@ -229,7 +230,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0042301863, y: -0.034048185}
+  m_Offset: {x: -0.027095795, y: -0.034048185}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -240,5 +241,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6869639, y: 0.13142046}
+  m_Size: {x: 0.38202667, y: 0.13142046}
   m_EdgeRadius: 0
+--- !u!114 &489213238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312855959296958374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf45007e7f70f40aa887687910a561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

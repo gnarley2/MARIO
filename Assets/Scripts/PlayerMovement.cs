@@ -79,13 +79,4 @@ public class PlayerMovement : MonoBehaviour
         rigidbody.MovePosition(position);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        Debug.Log(other.transform.name);
-        if (other.collider.TryGetComponent<Block>(out Block block))
-        {
-            block.Break();
-        }
-    }
-
 }
