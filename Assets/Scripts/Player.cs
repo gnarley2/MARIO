@@ -5,12 +5,12 @@ public class Player : MonoBehaviour
 {
     public PlayerSpriteRenderer smallRenderer;
     public PlayerSpriteRenderer bigRenderer;
-    public PlayerSpriteRenderer activeRenderer;
+    private PlayerSpriteRenderer activeRenderer;
 
-    private CapsuleCollider2D capsuleCollider2D;
+    public CapsuleCollider2D capsuleCollider2D { get; private set; }
 
     public bool big => bigRenderer.enabled;
-    public bool small => smallRenderer.enabled;
+    // public bool small => smallRenderer.enabled;
 
     private void Awake()
     {
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Shrink()
+    public void Shrink()
     {
         smallRenderer.enabled = true;
         bigRenderer.enabled = false;
@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
             }
 
             yield return null;
+            // yield return new WaitForSeconds(((1 * duration) * Time.captureFramerate)/4);
         }
 
         smallRenderer.enabled = false;
