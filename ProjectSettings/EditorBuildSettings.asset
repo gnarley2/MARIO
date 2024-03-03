@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 8a6ec237a926722498ff0e8ab2587f6f
   - enabled: 1
+    path: Assets/Scenes/Level1 wEnemies.unity
+    guid: 63c6e95bd2ffde545a54bf242e8b25a7
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: aaeae224c718e0349b28fa001513c686
   - enabled: 1
