@@ -6,7 +6,8 @@ public class EnemyMovement : MonoBehaviour
 {
 
     public float EnemySpeed = 1f;
-    public new Rigidbody2D rb;
+    // public new Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     private Vector2 velocity;
     public Vector2 direction = Vector2.left;
