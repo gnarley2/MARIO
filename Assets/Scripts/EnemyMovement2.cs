@@ -15,7 +15,7 @@ public class EnemyMovement2 : MonoBehaviour
     void Awake()
     {
         SpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        SpriteRenderer.flipX = btravellingRight;
+       // SpriteRenderer.flipX = btravellingRight;
         enabled = false;
     }
 
