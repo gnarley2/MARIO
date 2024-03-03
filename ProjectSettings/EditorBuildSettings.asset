@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1 wEnemies.unity
     guid: 63c6e95bd2ffde545a54bf242e8b25a7
-  - enabled: 0
-    path: Assets/Scenes/Level1.unity
-    guid: aaeae224c718e0349b28fa001513c686
   - enabled: 1
     path: Assets/Scenes/EndLevelScreen.unity
     guid: aafd0613941177e4b9230e6f4c029a22
