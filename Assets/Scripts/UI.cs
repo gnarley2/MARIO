@@ -41,7 +41,7 @@ public class UI : MonoBehaviour
         if (time > 0)
         {
             time -= Time.deltaTime;
-            TimeText.text = time.ToString();
+            TimeText.text = Mathf.Floor(time).ToString();
         }
         else
         {
