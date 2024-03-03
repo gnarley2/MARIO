@@ -68,6 +68,8 @@ public class Block : MonoBehaviour
 
     void SpawnCoin()
     {
+        GameManager.Instance.AddCoin();
+        
         Vector3 offset = new Vector3(0, 0.5f, 0);
         Instantiate(coin, transform.position + offset, Quaternion.identity);
     }
